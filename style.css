@@ -1,0 +1,519 @@
+/*  */
+.nav1{
+    display: inline;
+    float: right;
+    font-size: 19px;
+ 
+   }
+ 
+ 
+   .navigationbar{
+     height: 50px;
+     width: 40;   
+ }
+ 
+ 
+
+ /* CV,PORTFOLIO, ABOUT ME  NAV*/
+ .nav1 > a{color: aliceblue;
+     padding: 14px 10px;
+     font-weight: bold;
+     text-decoration: none;     
+ }
+ 
+
+  /* Heading size */
+ .Headline > h1,
+ .Headline > p {
+     color: aliceblue;
+     font-weight: bold;
+     text-decoration: none;
+     background-size: cover;
+     font-size: x-large;
+     margin: 0;
+     position: relative; top: 80px; left: 20px;
+ }
+ .Headline{
+    width: 100%;
+    margin-bottom: 8%;
+ }
+
+ /* BACKGROUNDEN */
+ body {
+     background-color: rgb(35, 34, 34);
+ }
+ 
+ .sarkis {
+     padding: 1rem;
+     font-weight: bold;
+     text-decoration:none;
+     color: aliceblue;
+     font-size: large;
+     position:absolute; left: -2px; top:-10px;
+     
+    
+ }
+ .navigationbar a:hover{
+    background-color:  #636360
+ }
+ a.active{
+    background-color: #14b3b3;
+ }
+
+ .button{
+    position: relative;left: 4px; top: 100px;
+    border: 6px solid #1a1212;
+    font-size: 1rem;
+ }
+
+
+ button:hover {
+    background-color: #2d9757;
+}
+
+.imagereaserch{
+    position: relative;left: -80px; top: 250px;
+
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 30%;
+    align-items: left;
+    position: relative;left: 20px; top: 100px;
+}
+
+.buttonsection{
+    position: relative;left: 18px; top: -160px;
+}
+.container>img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    
+}
+
+.container1 h2{
+    position: relative; left: 180px;
+}
+
+.item{
+  color: aliceblue;
+  position: relative;left: 20px; top: -50px;
+}
+.header2{
+    color: #14b3b3;
+    font-size: 1.2rem;
+    position: relative;left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header2 h2{
+    position: relative; left: -10px;
+}
+.item >h3{
+    color: #14b3b3;
+    font-size: large;
+}
+.item >p{
+    font-size: medium;
+
+    }
+    .active {
+  color: rgb(12, 165, 185);
+}
+
+.container >img{
+    width: 500px;
+    height: 400px;
+   margin: top -10rem;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Header3{
+    color: #14b3b3;
+    margin-left: 30px;
+    margin-top: 10rem;
+    font-size: xx-large;
+    text-align: center;
+
+}
+.footer {
+    color: aliceblue;
+    position: fixed absolute;
+    margin-top: 10rem;
+}
+.foter.Title{
+    background: #3B5998;
+    color: white;
+}
+.container1{
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+    justify-content: center;
+    flex-wrap:wrap;
+    font-size: larger;
+    }
+
+.card{
+    background: white;
+    width: 490px;
+    height: 760px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card-image{
+    
+    height: 490px;
+    width: auto;
+    margin-bottom: 1px;
+    background-size: auto;
+    border-radius: 10px;
+   
+    
+    
+}
+.container1 .card p{
+    position: relative;left: 10px;
+}
+
+.car-1{
+     
+    background-image: url('https://play-lh.googleusercontent.com/lANj2dwLChH-G6Z7BD4-BYN9I4Q9_dpiA3qDgGrXGkW-g0fn2uXZi0F8KN0fmnCO5qWG');
+
+    
+}
+
+.car-2{
+    background-image: url('https://play-lh.googleusercontent.com/qGxbra6hZMTIGt2vp7SlwkOH1AGbFCglkTTNatjNYT4slFNpaMw2r61wVvrlm7_Ja-vJ') ;
+
+}
+.car-3{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/4771/4771337.png');
+}
+.car-4{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/4771/4771337.png');
+}
+.card a{
+    background-color: black;
+    color: aliceblue;
+    padding: 2px;
+    display: block;
+    text-align: center;
+    margin: 30px 200px;
+}
+.card:hover{
+    background-color: #636360;
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s  ease;
+    
+}
+.icon{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    float: right;   
+    transition: 0.2s;
+    
+}
+
+.icon:hover{
+    color: #333333;
+}
+
+.cv{
+    color: aliceblue;
+    text-align: center;
+}
+.cv1{
+    color: aliceblue;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    position: relative;top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+  }
+
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 480px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.but{
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  .conect{
+color: #4CAF50;
+text-align: center;
+position: relative;top: 100px;
+font-weight: bolder;
+
+  }
+  
+  #toggleTheme{
+    position: absolute;
+    margin: 1px;right: 950px;
+    height: 22px;
+    top: 20px;
+    border:2px;
+
+
+  }
+  
+  
+  
+@media(max-width:400px),(orientation:landscape){ .item{
+   line-height: 1.5;
+   font-size: 1rem;
+   
+}
+
+}
+
+@media(min-width:400px) , (orientation:landscape) { p{
+    line-height: 1.5;
+    font-size: 1rem;
+    
+
+ }
+ 
+ }
+ 
+
+@media only screen and (max-width: 480px),(orientattion:landscape)
+{.buttonsection .button{
+    line-height: 1.5;
+    font-size: 1rem;
+    position: relative;top: 270px; left: -20px;
+ 
+}
+    
+  }
+
+  @media only screen and (max-width: 480px),(orientattion:landscape)
+{.sarkis{
+    line-height: 1.5;
+    font-size: 1rem;
+    position: relative;left: -10px; top: 70px;
+}
+    
+  }
+
+  @media only screen and (max-width: 480px),(orientattion:landscape)
+  {.Headline h1{
+      line-height: 1.5;
+      font-size: 1rem;
+      width: 50%; 
+      height: auto;
+      position: relative;left: -1px;
+  }
+      
+  @media only screen and (max-width: 480px),(orientattion:landscape)
+  {.Headline p{
+      line-height: 1.5;
+      font-size: 1rem;
+      width: 50%; 
+      height: auto;
+      position: relative;left: -1px;
+  }
+}
+    }
+  
+    @media only screen and (max-width: 480px),(orientattion:landscape)
+  {.nav1{
+      position: relative; right: 36px;
+  }
+      
+    }
+
+    @media only screen and (max-width: 480px),(orientattion:landscape)
+  {.container{
+      
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {.container h3{
+    position: relative;left : -42px;
+
+}
+}
+
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {.container1 .card p {
+    position: relative;text-align: center;
+
+}
+}
+
+
+@media only screen and (max-width: 480px),(orientattion:landscape)
+{.Header3{
+    
+    max-width: 100%; 
+    height: auto;
+    position: relative; left: -30px;
+}
+}
+
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {.item{
+      
+      max-width: 100%; 
+      height: auto;
+      display: flex;
+      flex-wrap:wrap;
+      font-size: larger;
+      flex-direction: column;
+  }
+}
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {h2{
+    position: relative;left: 150px;
+       
+  }
+}
+
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+  .footer{
+    position: relative;left: -28px;
+       
+  }
+}
+
+  @media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+  .Title{
+    position: relative;left: 25px;
+        
+}
+}
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {.cardp{
+    position: relative;left: 1px;
+       
+  }
+}
+
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {h3{
+    position: relative;left: 1px;
+       
+  }
+}
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+.container1 p{
+    position: relative;left:150px;
+}
+}
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+.container1{
+    
+      display: flex;
+      align-items: center;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+}
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+.header2 h2{
+    position: relative;left: -20px;
+    font-size: 1rem;
+    line-height: 4;
+
+}
+}
+
+
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+.container .item p{
+    position: relative;left: -40px;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+}
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+.navigationbar .nav1 a{
+    position: relative;left: 40px;
+
+}
+}
+
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+.footer{
+    position: relative;left: 10px; top: -10px;
+
+}
+}
+@media only screen and (max-width: 480px),(orientattion:landscape)
+  {
+.cv {
+    position: relative;text-align: center;
+    position: relative;top: 60px; left: -2px;
+
+}
+}
+
+
+
+
